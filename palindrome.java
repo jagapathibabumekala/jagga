@@ -6,13 +6,13 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner h = new Scanner (System.in);
-		int a,b=0,c,d;
+		int a,b=0,e,d;
 		a = h.nextInt();
 		d = a;
 		 while (a > 0)
 		  {
-		     c = a%10;
-		     b = (b * 10) + c;
+		     e = a%10;
+		     b = (b * 10) + e;
 		     a = a/10;
 		  }
 		  if ( b == d)
